@@ -1,7 +1,7 @@
 import { Layout } from 'antd';
 
-export const About = () => (
+export const Contact = () => (
   <Layout hasSider>
-    <Layout>About</Layout>
+    <Layout>contacts</Layout>
   </Layout>
 );
