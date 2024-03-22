@@ -2,6 +2,9 @@ import { Layout } from 'antd';
 
 export const Home = () => (
   <Layout hasSider>
-    <Layout>Home</Layout>
+    <Layout>    FLORIANÓPOLIS | BRASIL | 2019
+IARA
+DREGER
+ PORTFÓLIO</Layout>
   </Layout>
 );
