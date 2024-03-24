@@ -67,7 +67,8 @@ export default function Hero() {
             >
               "Uma pintura para mim é essencialmente um verbo, não um
               substantivo, um evento em primeiro lugar e só secundariamente uma
-              imagem."
+              imagem." <br />
+              Elaine De Kooning
             </p>
           </div>
 

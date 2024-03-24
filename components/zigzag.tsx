@@ -4,7 +4,7 @@ import FeatImage01 from "@/public/images/a2.jpeg";
 import FeatImage02 from "@/public/images/a3.jpeg";
 import FeatImage03 from "@/public/images/a4.jpeg";
 
-export default function Zigzag() {
+export const Zigzag = () => {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -216,4 +216,4 @@ export default function Zigzag() {
       </div>
     </section>
   );
-}
+};
