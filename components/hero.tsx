@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 import { Img } from "./img";
-import FeatImage03 from "@/public/images/a1.jpeg";
 
 export default function Hero() {
   function getPublicImagePaths(folderName: any) {
@@ -56,7 +55,7 @@ export default function Hero() {
         {/* Hero content */}
         <div className="relative pt-32 pb-5 md:pt-20 md:pb-10">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center">
             <h1 className="h1 mb-4" data-aos="fade-up">
               Iara Dreger | Artes Plásticas
             </h1>
@@ -72,12 +71,12 @@ export default function Hero() {
             </p>
           </div>
 
-          <Img
+          {/* <Img
             src={FeatImage03}
             alt="Descrição da imagem"
             width={500}
             height={300}
-          />
+          /> */}
         </div>
       </div>
     </section>
