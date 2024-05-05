@@ -15,7 +15,7 @@ export default function Banner() {
             <div className="text-slate-500 flex items-center">
               <a
                 className="font-medium hover:underline text-emerald-400"
-                href="https://api.whatsapp.com/send?phone=5555489111471"
+                href="https://api.whatsapp.com/send?phone=55554899111471"
                 target="_blank"
                 rel="noreferrer"
               >
