@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Img } from "../img";
-import logo from "../../public/images/icon.jpeg";
+import logo from "@/public/images/icon.jpeg";
 
 export default function Header() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import zap from "../public/images/ico-whatsapp-topo.png";
+import zap from "@/public/images/ico-whatsapp-topo.png";
 import { Img } from "./img";
 
 export default function Banner() {
