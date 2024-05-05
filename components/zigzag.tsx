@@ -1,24 +1,24 @@
 import { ZigzagItem } from "./zigzag-item";
 
-import a1 from "@/public/images/a1.jpeg";
-import a2 from "@/public/images/a2.jpeg";
-import a3 from "@/public/images/a3.jpeg";
-import a4 from "@/public/images/a4.jpeg";
-import a5 from "@/public/images/a5.jpeg";
-import a6 from "@/public/images/a6.jpeg";
-import a7 from "@/public/images/a7.jpeg";
-import a8 from "@/public/images/a8.jpeg";
-import a9 from "@/public/images/a9.jpeg";
-import a10 from "@/public/images/a10.jpeg";
-import a11 from "@/public/images/a11.jpeg";
-import a12 from "@/public/images/a12.jpeg";
-import a13 from "@/public/images/a13.jpeg";
-import a14 from "@/public/images/a14.jpeg";
-import a15 from "@/public/images/a15.jpeg";
-import a16 from "@/public/images/a16.jpeg";
-import a17 from "@/public/images/a17.jpeg";
-import a18 from "@/public/images/a18.jpeg";
-import a19 from "@/public/images/a19.jpeg";
+import a1 from "../public/images/a1.jpeg";
+import a2 from "../public/images/a2.jpeg";
+import a3 from "../public/images/a3.jpeg";
+import a4 from "../public/images/a4.jpeg";
+import a5 from "../public/images/a5.jpeg";
+import a6 from "../public/images/a6.jpeg";
+import a7 from "../public/images/a7.jpeg";
+import a8 from "../public/images/a8.jpeg";
+import a9 from "../public/images/a9.jpeg";
+import a10 from "../public/images/a10.jpeg";
+import a11 from "../public/images/a11.jpeg";
+import a12 from "../public/images/a12.jpeg";
+import a13 from "../public/images/a13.jpeg";
+import a14 from "../public/images/a14.jpeg";
+import a15 from "../public/images/a15.jpeg";
+import a16 from "../public/images/a16.jpeg";
+import a17 from "../public/images/a17.jpeg";
+import a18 from "../public/images/a18.jpeg";
+import a19 from "../public/images/a19.jpeg";
 
 export const Zigzag = () => {
   const imagesData = [
