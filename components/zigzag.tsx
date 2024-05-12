@@ -122,8 +122,8 @@ export const Zigzag = () => {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
-          {/* Section header */}
+         {/*  <div className="py-12 md:py-20 border-t border-gray-800">
+      
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-white rounded-full mb-4">
               "A arte é a expressão suprema do que realmente somos." - Michael
@@ -132,7 +132,7 @@ export const Zigzag = () => {
             <h1 className="h2 mb-4">Obras</h1>
           </div>
 
-          {/* Items 
+        Items 
           <div className="grid gap-20">
             {imagesData.map((imageData, index) => (
               <ZigzagItem
@@ -142,8 +142,8 @@ export const Zigzag = () => {
                 description={imageData.description}
               />
             ))}
-          </div>*/}
-        </div>
+          </div>
+        </div>*/}
       </div>
     </section>
   );
