@@ -2,6 +2,7 @@ import { ZigzagItem } from "./zigzag-item";
 
 import Untitled1 from "@/public/images/Untitled1.jpeg";
 import Untitled2 from "@/public/images/Untitled2.jpeg";
+
 import Untitled3 from "@/public/images/Untitled3.jpeg";
 import Untitled4 from "@/public/images/Untitled4.jpeg";
 import Untitled5 from "@/public/images/Untitled5.jpeg";
@@ -10,15 +11,15 @@ import Untitled7 from "@/public/images/Untitled7.jpeg";
 import Untitled8 from "@/public/images/Untitled8.jpeg";
 import Untitled9 from "@/public/images/Untitled9.jpeg";
 import Untitled10 from "@/public/images/Untitled10.jpeg";
-import a11 from "@/public/images/a11.jpeg";
-import a12 from "@/public/images/a12.jpeg";
-import a13 from "@/public/images/a13.jpeg";
-import a14 from "@/public/images/a14.jpeg";
-import a15 from "@/public/images/a15.jpeg";
-import a16 from "@/public/images/a16.jpeg";
-import a17 from "@/public/images/a17.jpeg";
-import a18 from "@/public/images/a18.jpeg";
-import a19 from "@/public/images/a19.jpeg";
+
+import Untitled11 from "@/public/images/Untitled11.jpeg";
+import Untitled12 from "@/public/images/Untitled12.jpeg";
+import Untitled13 from "@/public/images/Untitled13.jpeg";
+import Untitled14 from "@/public/images/Untitled14.jpeg";
+import Untitled15 from "@/public/images/Untitled15.jpeg";
+import Untitled16 from "@/public/images/Untitled16.jpeg";
+import Untitled17 from "@/public/images/Untitled17.jpeg";
+import Untitled18 from "@/public/images/Untitled18.jpeg";
 
 export const Zigzag = () => {
   const metamorfose = [
@@ -110,67 +111,67 @@ export const Zigzag = () => {
   const transmutacao = [
     {
       Untitled: "Untitled 11",
-      imageSrc: Untitled3,
-      size: " 0.60 x 0.50 m",
-      title: "Acrílica sobre Tela, 2023",
-      description: "Chassis duplo, tipo painel",
-      price: "R$ 975,00",
-    },
-    {
-      Untitled: "Untitled 12",
-      imageSrc: Untitled4,
-      size: " 0.60 x 0.50 m",
-      title: "Óleo sobre Tela, 2024",
-      description: "Chassis duplo, tipo painel",
-      price: "R$ 975,00",
-    },
-    {
-      Untitled: "Untitled 13",
-      imageSrc: Untitled5,
+      imageSrc: Untitled11,
       size: " 0.60 x 0.50 m",
       title: "Acrílica sobre Tela, 2024",
       description: "Chassis duplo, tipo painel",
-      price: "R$ 975,00",
+      price: "R$ 1.200,00",
+    },
+    {
+      Untitled: "Untitled 12",
+      imageSrc: Untitled12,
+      size: " 0.60 x 0.50 m",
+      title: "Óleo sobre Tela, 2024",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 1.200,00",
+    },
+    {
+      Untitled: "Untitled 13",
+      imageSrc: Untitled13,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2024",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 1.200,00",
     },
     {
       Untitled: "Untitled 14",
-      imageSrc: Untitled6,
+      imageSrc: Untitled14,
       size: " 0.60 x 0.50 m",
-      title: "Acrílica sobre Tela, 2023",
+      title: "Acrílica sobre Tela, 2024",
       description: "Chassis duplo, tipo painel",
       price: "R$ 600,00",
     },
     {
       Untitled: "Untitled 15",
-      imageSrc: Untitled7,
+      imageSrc: Untitled15,
       size: " 0.60 x 0.50 m",
-      title: "Acrílica sobre Tela, 2022-24",
+      title: "Acrílica sobre Tela, 2024",
       description: "Chassis duplo, tipo painel",
-      price: "R$ 975,00",
+      price: "R$ 1.200,00",
     },
     {
       Untitled: "Untitled 16",
-      imageSrc: Untitled8,
+      imageSrc: Untitled16,
       size: " 0.60 x 0.50 m",
-      title: "Acrílica sobre Tela, 2023",
+      title: "Acrílica sobre Tela, 2024",
       description: "Chassis duplo, tipo painel",
-      price: "R$ 975,00",
+      price: "R$ 1.200,00",
     },
     {
       Untitled: "Untitled 17",
-      imageSrc: Untitled9,
+      imageSrc: Untitled17,
       size: " 0.60 x 0.50 m",
-      title: "Acrílica sobre Tela, 2023",
+      title: "Acrílica sobre Tela, 2023-24",
       description: "Chassis duplo, tipo painel",
-      price: "R$ 600,00",
+      price: "R$ 1.200,00",
     },
     {
       Untitled: "Untitled 18",
-      imageSrc: Untitled10,
+      imageSrc: Untitled18,
       size: " 0.60 x 0.50 m",
-      title: "Óleo sobre Tela, 2024",
+      title: "Óleo sobre Tela, 2023-24",
       description: "Chassis duplo, tipo painel",
-      price: "R$ 975,00",
+      price: "R$ 1.200,00",
     },
   ];
 
