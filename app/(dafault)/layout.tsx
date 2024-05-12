@@ -6,7 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { Footer } from "@/components/ui/footer";
-import { PageIllustration } from "@/components/page-illustration";
+// import { PageIllustration } from "@/components/page-illustration";
 
 export default function DefaultLayout({
   children,
@@ -25,7 +25,7 @@ export default function DefaultLayout({
   return (
     <>
       <main className="grow">
-        <PageIllustration />
+        {/* <PageIllustration /> */}
 
         {children}
       </main>
