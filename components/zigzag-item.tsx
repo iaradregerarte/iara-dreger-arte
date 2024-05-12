@@ -35,7 +35,7 @@ export const ZigzagItem = ({
           <h3 className="h3 mb-3">{title}</h3>
           <p className="text-xl text-gray-400 mb-4">{size}</p>
           <p className="text-xl text-gray-400 mb-4">{description}</p>
-          <h4 className="h3 mb-3">{price}</h4>
+          <h4 className="h4 mb-3">{price}</h4>
         </div>
       </div>
     </div>

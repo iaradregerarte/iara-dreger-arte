@@ -2,14 +2,14 @@ import { ZigzagItem } from "./zigzag-item";
 
 import Untitled1 from "@/public/images/Untitled1.jpeg";
 import Untitled2 from "@/public/images/Untitled2.jpeg";
-import a3 from "@/public/images/a3.jpeg";
-import a4 from "@/public/images/a4.jpeg";
-import a5 from "@/public/images/a5.jpeg";
-import a6 from "@/public/images/a6.jpeg";
-import a7 from "@/public/images/a7.jpeg";
-import a8 from "@/public/images/a8.jpeg";
-import a9 from "@/public/images/a9.jpeg";
-import a10 from "@/public/images/a10.jpeg";
+import Untitled3 from "@/public/images/Untitled3.jpeg";
+import Untitled4 from "@/public/images/Untitled4.jpeg";
+import Untitled5 from "@/public/images/Untitled5.jpeg";
+import Untitled6 from "@/public/images/Untitled6.jpeg";
+import Untitled7 from "@/public/images/Untitled7.jpeg";
+import Untitled8 from "@/public/images/Untitled8.jpeg";
+import Untitled9 from "@/public/images/Untitled9.jpeg";
+import Untitled10 from "@/public/images/Untitled10.jpeg";
 import a11 from "@/public/images/a11.jpeg";
 import a12 from "@/public/images/a12.jpeg";
 import a13 from "@/public/images/a13.jpeg";
@@ -43,51 +43,134 @@ export const Zigzag = () => {
   const deusAtomo = [
     {
       Untitled: "Untitled 3",
-      imageSrc: a9,
-      title: "Título da Arte 1",
-      description: "Descrição da Arte 1",
+      imageSrc: Untitled3,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2023",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
     },
     {
       Untitled: "Untitled 4",
-      imageSrc: a10,
-      title: "Título da Arte 2",
-      description: "Descrição da Arte 2",
+      imageSrc: Untitled4,
+      size: " 0.60 x 0.50 m",
+      title: "Óleo sobre Tela, 2024",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
     },
     {
       Untitled: "Untitled 5",
-      imageSrc: a3,
-      title: "Título da Arte 3",
-      description: "Descrição da Arte 3",
+      imageSrc: Untitled5,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2024",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
     },
     {
       Untitled: "Untitled 6",
-      imageSrc: a4,
-      title: "Título da Arte 4",
-      description: "Descrição da Arte 4",
+      imageSrc: Untitled6,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2023",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 600,00",
     },
     {
       Untitled: "Untitled 7",
-      imageSrc: a5,
-      title: "Título da Arte 5",
-      description: "Descrição da Arte 5",
+      imageSrc: Untitled7,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2022-24",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
     },
     {
       Untitled: "Untitled 8",
-      imageSrc: a6,
-      title: "Título da Arte 6",
-      description: "Descrição da Arte 6",
+      imageSrc: Untitled8,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2023",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
     },
     {
       Untitled: "Untitled 9",
-      imageSrc: a7,
-      title: "Título da Arte 7",
-      description: "Descrição da Arte 7",
+      imageSrc: Untitled9,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2023",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 600,00",
     },
     {
       Untitled: "Untitled 10",
-      imageSrc: a8,
-      title: "Título da Arte 8",
-      description: "Descrição da Arte 8",
+      imageSrc: Untitled10,
+      size: " 0.60 x 0.50 m",
+      title: "Óleo sobre Tela, 2024",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
+    },
+  ];
+
+  const transmutacao = [
+    {
+      Untitled: "Untitled 11",
+      imageSrc: Untitled3,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2023",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
+    },
+    {
+      Untitled: "Untitled 12",
+      imageSrc: Untitled4,
+      size: " 0.60 x 0.50 m",
+      title: "Óleo sobre Tela, 2024",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
+    },
+    {
+      Untitled: "Untitled 13",
+      imageSrc: Untitled5,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2024",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
+    },
+    {
+      Untitled: "Untitled 14",
+      imageSrc: Untitled6,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2023",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 600,00",
+    },
+    {
+      Untitled: "Untitled 15",
+      imageSrc: Untitled7,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2022-24",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
+    },
+    {
+      Untitled: "Untitled 16",
+      imageSrc: Untitled8,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2023",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
+    },
+    {
+      Untitled: "Untitled 17",
+      imageSrc: Untitled9,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2023",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 600,00",
+    },
+    {
+      Untitled: "Untitled 18",
+      imageSrc: Untitled10,
+      size: " 0.60 x 0.50 m",
+      title: "Óleo sobre Tela, 2024",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 975,00",
     },
   ];
 
@@ -99,7 +182,9 @@ export const Zigzag = () => {
             <h1 className="h2 mb-4">Série GESTO INACABADO</h1>
           </div>
           <>
-            Movimento 1 - Metamorfose
+            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
+              Movimento 1 - Metamorfose
+            </div>
             <div className="grid gap-20">
               {metamorfose.map((imageData, index) => (
                 <ZigzagItem
@@ -108,12 +193,16 @@ export const Zigzag = () => {
                   imageSrc={imageData.imageSrc}
                   title={imageData.title}
                   description={imageData.description}
+                  size={imageData.size}
+                  price={imageData.price}
                 />
               ))}
             </div>
           </>
           <>
-            Movimento 2 - Deus átomo
+            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
+              Movimento 2 - Deus átomo
+            </div>
             <div className="grid gap-20">
               {deusAtomo.map((imageData, index) => (
                 <ZigzagItem
@@ -122,6 +211,26 @@ export const Zigzag = () => {
                   imageSrc={imageData.imageSrc}
                   title={imageData.title}
                   description={imageData.description}
+                  size={imageData.size}
+                  price={imageData.price}
+                />
+              ))}
+            </div>
+          </>
+          <>
+            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
+              Movimento 3 - Transmutação
+            </div>
+            <div className="grid gap-20">
+              {transmutacao.map((imageData, index) => (
+                <ZigzagItem
+                  key={index}
+                  Untitled={imageData.Untitled}
+                  imageSrc={imageData.imageSrc}
+                  title={imageData.title}
+                  description={imageData.description}
+                  size={imageData.size}
+                  price={imageData.price}
                 />
               ))}
             </div>

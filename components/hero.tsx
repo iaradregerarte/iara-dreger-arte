@@ -60,8 +60,7 @@ export default function Hero() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <b>IARA DREGER</b> : Artista Visual (Mondai-SC), reside em
-              Florianópolis. Formada em
+              Artista Visual (Mondai-SC), reside em Florianópolis. Formada em
               <br /> Arquitetura e Urbanismo. Trabalhou e estudou na Alemanha
               por 18 anos. No
               <br /> Brasil fez diversos laboratórios de imersão artística,
@@ -70,7 +69,7 @@ export default function Hero() {
               diversas mostras
               <br /> coletivas e individuais.
               <br />
-              <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-white rounded-full mb-4">
+              <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 mb-4">
                 <br /> A minha arte gestual expressionista abstrata é motivada
                 por impressões do
                 <br /> inconsciente, somadas à minha sensibilidade e
