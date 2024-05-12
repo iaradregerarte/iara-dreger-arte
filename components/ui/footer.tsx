@@ -8,11 +8,15 @@ export const Footer = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-between">
+            {/* Copyrights note */}
+            <div className="text-gray-400 text-sm mr-4">
+              &copy; Copyright (c) 2024 Cypirando
+            </div>
             {/* Social links */}
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link
-                  href="/"
+                  href="https://twitter.com/DregerIara"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Twitter"
                 >
@@ -27,9 +31,9 @@ export const Footer = () => {
               </li>
               <li className="ml-4">
                 <Link
-                  href="/"
+                  href="mailto:iaradregerarte@gmail.com"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
-                  aria-label="Github"
+                  aria-label="Enviar Email"
                 >
                   <svg
                     className="w-8 h-8 fill-current"
@@ -42,7 +46,7 @@ export const Footer = () => {
               </li>
               <li className="ml-4">
                 <Link
-                  href="/"
+                  href="https://www.facebook.com/IaraDregerArte"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Facebook"
                 >
@@ -57,7 +61,7 @@ export const Footer = () => {
               </li>
               <li className="ml-4">
                 <Link
-                  href="/"
+                  href="https://www.instagram.com/iara_dreger/"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Instagram"
                 >
@@ -74,7 +78,7 @@ export const Footer = () => {
               </li>
               <li className="ml-4">
                 <Link
-                  href="/"
+                  href="https://www.linkedin.com/in/iara-dreger/"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Linkedin"
                 >
@@ -87,11 +91,24 @@ export const Footer = () => {
                   </svg>
                 </Link>
               </li>
+              <li className="ml-4">
+                <Link
+                  href="/"
+                  className="flex justify-center items-center text-red-600 bg-gray-800 hover:text-gray-100 hover:bg-red-600 rounded-full transition duration-150 ease-in-out"
+                  aria-label="YouTube"
+                >
+                  <svg
+                    className="w-8 h-8 fill-current"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path d="M10 16.5v-9l6 4.5-6 4.5z" />
+                    <path d="M0 0h24v24H0z" fill="none" />
+                  </svg>
+                </Link>
+              </li>
             </ul>
-            {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">
-              &copy; Copyright (c) 2024 Cypirando
-            </div>
           </div>
         </div>
       </div>

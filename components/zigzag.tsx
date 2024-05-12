@@ -35,7 +35,7 @@ export const Zigzag = () => {
       imageSrc: Untitled2,
       Untitled: "Untitled 2",
       title: "Acrílica sobre Tela, 2018-24",
-      size: "2.0 x 1.00 m",
+      size: "1.0 x 1.00 m",
       description: "Moldura branca tipo filete",
       price: "R$ 3.250,00",
     },
@@ -180,12 +180,14 @@ export const Zigzag = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Série GESTO INACABADO</h1>
+            <h1 className="h2 mb-4">
+              Série <br /> GESTO INACABADO
+            </h1>
           </div>
-          <>
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
-              Movimento 1 - Metamorfose
-            </div>
+
+          {/* Movimento 1 - Metamorfose */}
+          <div className="bg-gradient-to-b from-cyan-200 to-cyan-400 inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
+            Movimento 1 - Metamorfose
             <div className="grid gap-20">
               {metamorfose.map((imageData, index) => (
                 <ZigzagItem
@@ -199,12 +201,12 @@ export const Zigzag = () => {
                 />
               ))}
             </div>
-          </>
-          <hr/>
-          <>
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
-              Movimento 2 - Deus átomo
-            </div>
+          </div>
+          <hr />
+
+          {/* Movimento 2 - Deus átomo */}
+          <div className="bg-gradient-to-b from-purple-200 to-purple-400 inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
+            Movimento 2 - Deus átomo
             <div className="grid gap-20">
               {deusAtomo.map((imageData, index) => (
                 <ZigzagItem
@@ -218,12 +220,12 @@ export const Zigzag = () => {
                 />
               ))}
             </div>
-          </>
-          <hr/>
-          <>
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
-              Movimento 3 - Transmutação
-            </div>
+          </div>
+          <hr />
+
+          {/* Movimento 3 - Transmutação */}
+          <div className="bg-gradient-to-b from-green-200 to-green-400 inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
+            Movimento 3 - Transmutação
             <div className="grid gap-20">
               {transmutacao.map((imageData, index) => (
                 <ZigzagItem
@@ -237,8 +239,8 @@ export const Zigzag = () => {
                 />
               ))}
             </div>
-          </>
-          <hr/>
+          </div>
+          <hr />
         </div>
       </div>
     </section>
