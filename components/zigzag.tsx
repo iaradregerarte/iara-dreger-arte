@@ -200,6 +200,7 @@ export const Zigzag = () => {
               ))}
             </div>
           </>
+          <hr/>
           <>
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
               Movimento 2 - Deus átomo
@@ -218,6 +219,7 @@ export const Zigzag = () => {
               ))}
             </div>
           </>
+          <hr/>
           <>
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
               Movimento 3 - Transmutação
@@ -236,6 +238,7 @@ export const Zigzag = () => {
               ))}
             </div>
           </>
+          <hr/>
         </div>
       </div>
     </section>
