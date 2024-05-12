@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
-        {/* Illustration behind hero content */}
+        {/* Illustration behind hero content 
         <div
           className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none"
           aria-hidden="true"
@@ -52,9 +52,9 @@ export default function Hero() {
           </svg>
         </div>
 
-        {/* Hero content */}
+     
         <div className="relative pt-32 pb-5 md:pt-20 md:pb-10">
-          {/* Section header */}
+        
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="h1 mb-4" data-aos="fade-up">
               Iara Dreger | Artes Plásticas
@@ -71,13 +71,8 @@ export default function Hero() {
             </p>
           </div>
 
-          {/* <Img
-            src={FeatImage03}
-            alt="Descrição da imagem"
-            width={500}
-            height={300}
-          /> */}
-        </div>
+  
+        </div>*/}
       </div>
     </section>
   );
