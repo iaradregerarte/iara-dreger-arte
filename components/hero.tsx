@@ -12,8 +12,7 @@ export default function Hero() {
             </h1>
             <Img
               style={{
-                width: 30,
-                height: 30,
+                width: "60%",
                 marginLeft: 8,
               }}
               alt="Autora"
