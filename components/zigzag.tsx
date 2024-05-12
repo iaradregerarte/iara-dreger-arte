@@ -132,7 +132,7 @@ export const Zigzag = () => {
             <h1 className="h2 mb-4">Obras</h1>
           </div>
 
-          {/* Items */}
+          {/* Items 
           <div className="grid gap-20">
             {imagesData.map((imageData, index) => (
               <ZigzagItem
@@ -142,7 +142,7 @@ export const Zigzag = () => {
                 description={imageData.description}
               />
             ))}
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>
