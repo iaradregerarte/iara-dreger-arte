@@ -1,8 +1,13 @@
 import Image from "next/image";
 
-
-
-export const ZigzagItem = ({ imageSrc, title, description }: any) => {
+export const ZigzagItem = ({
+  imageSrc,
+  title,
+  description,
+  Untitled,
+  size,
+  price,
+}: any) => {
   return (
     <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
       {/* Image */}
@@ -25,11 +30,12 @@ export const ZigzagItem = ({ imageSrc, title, description }: any) => {
       >
         <div className="md:pl-4 lg:pl-12 xl:pl-16">
           <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-            Ficha técnica
+            {Untitled}
           </div>
           <h3 className="h3 mb-3">{title}</h3>
+          <p className="text-xl text-gray-400 mb-4">{size}</p>
           <p className="text-xl text-gray-400 mb-4">{description}</p>
-          {/* Additional content goes here */}
+          <h4 className="h3 mb-3">{price}</h4>
         </div>
       </div>
     </div>

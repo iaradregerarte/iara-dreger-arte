@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import { Img } from "./img";
 
 export default function Hero() {
   function getPublicImagePaths(folderName: any) {
@@ -15,7 +14,6 @@ export default function Hero() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
-        {/* Illustration behind hero content 
         <div
           className="absolute left-0 bottom-0 -ml-20 hidden lg:block pointer-events-none"
           aria-hidden="true"
@@ -52,27 +50,49 @@ export default function Hero() {
           </svg>
         </div>
 
-     
         <div className="relative pt-32 pb-5 md:pt-20 md:pb-10">
-        
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Iara Dreger | Artes Plásticas
+              <b> Série de Obras</b> <br /> Iara Dreger
             </h1>
             <p
               className="text-xl text-gray-400 mb-8"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              "Uma pintura para mim é essencialmente um verbo, não um
-              substantivo, um evento em primeiro lugar e só secundariamente uma
-              imagem." <br />
-              Elaine De Kooning
+              <b>IARA DREGER</b> : Artista Visual (Mondai-SC), reside em
+              Florianópolis. Formada em
+              <br /> Arquitetura e Urbanismo. Trabalhou e estudou na Alemanha
+              por 18 anos. No
+              <br /> Brasil fez diversos laboratórios de imersão artística,
+              aprimorando seus
+              <br /> conhecimentos em arte contemporânea, participando de
+              diversas mostras
+              <br /> coletivas e individuais.
+              <br />
+              <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-white rounded-full mb-4">
+                <br /> A minha arte gestual expressionista abstrata é motivada
+                por impressões do
+                <br /> inconsciente, somadas à minha sensibilidade e
+                amadurecimento artístico.
+              </div>
+              <br />
+              <br /> “Iara Dreger executa uma investigação expressionista em sua
+              pintura e imprime o<br /> gesto, uma ação em construção, criando
+              procedimentos aleatórios na
+              <br /> materialidade de sua obra. A artista explora o gesto
+              criador e a sua complexidade
+              <br /> diante das incertezas e transformações da vida. Sua
+              experiência artística efetua
+              <br /> uma reflexão e não estabelece limites, porque a
+              transitoriedade é seu ponto de
+              <br /> partida. Sempre haverá algo mais belo para ser revelado em
+              sua obra”.
+              <br />
+              <br /> Andy Rodrigues - Curador.
             </p>
           </div>
-
-  
-        </div>*/}
+        </div>
       </div>
     </section>
   );
