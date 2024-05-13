@@ -55,8 +55,7 @@ export default function Hero() {
         <div className="relative pt-32 pb-5 md:pt-20 md:pb-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              <b> Série de Obras</b> <br /> Iara Dreger import author from
-              "@/public/images/author.jpeg";
+              <b> Série de Obras</b> <br /> Iara Dreger
               <Img
                 style={{
                   width: "60%",
