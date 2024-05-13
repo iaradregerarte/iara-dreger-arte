@@ -38,6 +38,7 @@ export const ZigzagItem = ({
           <h4 className="h4 mb-3">{price}</h4>
         </div>
       </div>
+      <hr />
     </div>
   );
 };
