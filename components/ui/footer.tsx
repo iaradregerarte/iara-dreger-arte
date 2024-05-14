@@ -8,11 +8,6 @@ export const Footer = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-between">
-            {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">
-              &copy; Copyright (c) 2024 Cypirando
-            </div>
-            {/* Social links */}
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link
@@ -109,6 +104,9 @@ export const Footer = () => {
                 </Link>
               </li>
             </ul>
+          </div>
+          <div className="text-gray-400 text-sm mr-4">
+            &copy; Copyright (c) 2024 Cypirando
           </div>
         </div>
       </div>

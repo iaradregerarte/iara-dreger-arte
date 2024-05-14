@@ -55,7 +55,7 @@ export default function Hero() {
         <div className="relative pt-32 pb-5 md:pt-20 md:pb-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              <b> Série de Obras</b> <br /> Iara Dreger
+              <b> Série de Obras</b>
               <Img
                 style={{
                   width: "60%",
@@ -64,6 +64,9 @@ export default function Hero() {
                 alt="Autora"
                 src={author}
               />
+            </h1>
+            <h1 className="h1 mb-4" data-aos="fade-up">
+              Iara Dreger
             </h1>
 
             <p
@@ -89,13 +92,20 @@ export default function Hero() {
               <br />
               <br />
               <i>
-                  “Iara Dreger executa uma investigação expressionista em sua pintura e imprime o <br />
-                gesto , uma ação em construção , criando  procedimentos aleatórios  na <br />
-                materialidade de sua obra. A artista explora a complexidade <br />
-                subjetiva em sua imersão  abstracionista com extremo vigor . Sua experiência artistica efetua <br />
-                uma reflexão e não estabelece limites , porque a transitoriedade é seu ponto de partida. “
+                “Iara Dreger executa uma investigação expressionista em sua
+                <br />
+                pintura e imprime o gesto , uma ação em construção , criando
+                <br />
+                procedimentos aleatórios na materialidade de sua obra. A artista
+                <br />
+                explora a complexidade subjetiva em sua imersão abstracionista
+                <br />
+                com extremo vigor . Sua experiência artística efetua uma
+                <br />
+                reflexão e não estabelece limites , porque a transitoriedade é
+                <br />
+                seu ponto de partida. “
               </i>
-              <br />
               <br /> Andy Rodrigues - Curador.
             </p>
           </div>
