@@ -89,17 +89,11 @@ export default function Hero() {
               <br />
               <br />
               <i>
-                “Iara Dreger executa uma investigação expressionista em sua
-                pintura e imprime o<br /> gesto, uma ação em construção, criando
-                procedimentos aleatórios na
-                <br /> materialidade de sua obra. A artista explora o gesto
-                criador e a sua complexidade
-                <br /> diante das incertezas e transformações da vida. Sua
-                experiência artística efetua
-                <br /> uma reflexão e não estabelece limites, porque a
-                transitoriedade é seu ponto de
-                <br /> partida. Sempre haverá algo mais belo para ser revelado
-                em sua obra”.
+                  “Iara Dreger executa uma investigação expressionista em sua pintura e imprime o <br />
+                gesto , uma ação em construção , criando  procedimentos aleatórios  na <br />
+                materialidade de sua obra. A artista explora a complexidade <br />
+                subjetiva em sua imersão  abstracionista com extremo vigor . Sua experiência artistica efetua <br />
+                uma reflexão e não estabelece limites , porque a transitoriedade é seu ponto de partida. “
               </i>
               <br />
               <br /> Andy Rodrigues - Curador.
