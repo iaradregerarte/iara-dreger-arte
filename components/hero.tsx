@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { Img } from "./img";
 import author from "@/public/images/author.jpeg";
+import signature from "@/public/images/assinatura.jpeg";
 
 export default function Hero() {
   function getPublicImagePaths(folderName: any) {
@@ -89,6 +90,13 @@ export default function Hero() {
                 <br /> inconsciente, somadas à minha sensibilidade e
                 amadurecimento artístico.
               </div>
+              <Img
+                style={{
+                  width: "10%",
+                }}
+                alt="assinatura"
+                src={signature}
+              />
               <br />
               <br />
               <i>

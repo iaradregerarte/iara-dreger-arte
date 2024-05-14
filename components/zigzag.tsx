@@ -21,6 +21,8 @@ import Untitled16 from "@/public/images/Untitled16.jpeg";
 import Untitled17 from "@/public/images/Untitled17.jpeg";
 import Untitled18 from "@/public/images/Untitled18.jpeg";
 
+import UntitledI from "@/public/images/UntitledI.jpeg";
+
 export const Zigzag = () => {
   const metamorfose = [
     {
@@ -175,16 +177,33 @@ export const Zigzag = () => {
     },
   ];
 
+  const acervo = [
+    {
+      Untitled: "Untitled I",
+      imageSrc: UntitledI,
+      size: " 0.60 x 0.50 m",
+      title: "Acrílica sobre Tela, 2023",
+      description: "Chassis duplo, tipo painel",
+      price: "R$ 600,00",
+    },
+  ];
+
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Série GESTO INACABADO</h1>
+            <h1 className="h2 mb-4">
+              <i>Série</i>
+              <br /> GESTO INACABADO
+            </h1>
           </div>
           <>
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
-              Movimento 1 - Metamorfose
+              <h5 className="h2 mb-4">
+                <i>Movimento 1</i>
+                <br /> Metamorfose
+              </h5>
             </div>
             <div className="grid gap-20">
               {metamorfose.map((imageData, index) => (
@@ -200,10 +219,13 @@ export const Zigzag = () => {
               ))}
             </div>
           </>
-          <hr/>
+          <hr />
           <>
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
-              Movimento 2 - Deus átomo
+              <h5 className="h2 mb-4">
+                <i>Movimento 2</i>
+                <br /> Deus átomo
+              </h5>
             </div>
             <div className="grid gap-20">
               {deusAtomo.map((imageData, index) => (
@@ -219,10 +241,13 @@ export const Zigzag = () => {
               ))}
             </div>
           </>
-          <hr/>
+          <hr />
           <>
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
-              Movimento 3 - Transmutação
+              <h5 className="h2 mb-4">
+                <i>Movimento 2</i>
+                <br /> Transmutação
+              </h5>
             </div>
             <div className="grid gap-20">
               {transmutacao.map((imageData, index) => (
@@ -238,7 +263,34 @@ export const Zigzag = () => {
               ))}
             </div>
           </>
-            <hr/>
+          <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 mb-4">
+            <br /> As obras da Série Gesto Inacabado podem ser observadas na
+            horizontal ou na vertical.
+          </div>
+          <hr />
+        </div>
+        <div className="py-12 md:py-20 border-t border-gray-800">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <h1 className="h2 mb-4">
+              <i>Série</i>
+              <br /> ACERVO
+            </h1>
+          </div>
+          <>
+            <div className="grid gap-20">
+              {acervo.map((imageData, index) => (
+                <ZigzagItem
+                  key={index}
+                  Untitled={imageData.Untitled}
+                  imageSrc={imageData.imageSrc}
+                  title={imageData.title}
+                  description={imageData.description}
+                  size={imageData.size}
+                  price={imageData.price}
+                />
+              ))}
+            </div>
+          </>
         </div>
       </div>
     </section>
