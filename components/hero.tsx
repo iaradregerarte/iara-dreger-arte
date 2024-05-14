@@ -92,7 +92,7 @@ export default function Hero() {
               </div>
               <Img
                 style={{
-                  width: "10%",
+                  width: "50%",
                 }}
                 alt="assinatura"
                 src={signature}

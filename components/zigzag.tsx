@@ -199,9 +199,11 @@ export const Zigzag = () => {
             </h1>
           </div>
           <>
+            <h6>
+              <i>Movimento 1 -</i>
+            </h6>
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
               <h5 className="h2 mb-4">
-                <i>Movimento 1</i>
                 <br /> Metamorfose
               </h5>
             </div>
@@ -221,9 +223,11 @@ export const Zigzag = () => {
           </>
           <hr />
           <>
+            <h6>
+              <i>Movimento 2 -</i>
+            </h6>
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
               <h5 className="h2 mb-4">
-                <i>Movimento 2</i>
                 <br /> Deus átomo
               </h5>
             </div>
@@ -243,9 +247,11 @@ export const Zigzag = () => {
           </>
           <hr />
           <>
+            <h6>
+              <i>Movimento 3 -</i>
+            </h6>
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
               <h5 className="h2 mb-4">
-                <i>Movimento 2</i>
                 <br /> Transmutação
               </h5>
             </div>
