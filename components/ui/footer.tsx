@@ -39,6 +39,7 @@ export const Footer = () => {
                   </svg>
                 </Link>
               </li>
+
               <li className="ml-4">
                 <Link
                   href="https://www.facebook.com/IaraDregerArte"
@@ -93,7 +94,7 @@ export const Footer = () => {
                   aria-label="YouTube"
                 >
                   <svg
-                    className="w-8 h-8 fill-current"
+                    className="w-8 h-8 fill-current text-purple-600"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -105,7 +106,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="text-gray-400 text-sm mr-4">
+          <div className="text-gray-400 text-sm mr-4 pt-10 pb-10 pl-38">
             &copy; Copyright (c) 2024 Cypirando
           </div>
         </div>
