@@ -53,7 +53,7 @@ export const metamorfose = [
   },
 ];
 
-export const deusAtomo = [
+export const untitled = [
   {
     Untitled: "Untitled 3",
     imageSrc: Untitled3,
@@ -62,6 +62,9 @@ export const deusAtomo = [
     description: "Chassis duplo, tipo painel",
     price: "R$ 975,00",
   },
+];
+
+export const deusAtomo = [
   {
     Untitled: "Untitled 4",
     imageSrc: Untitled4,

@@ -1,4 +1,10 @@
-import { acervo, deusAtomo, metamorfose, transmutacao } from "./image-data";
+import {
+  acervo,
+  deusAtomo,
+  metamorfose,
+  transmutacao,
+  untitled,
+} from "./image-data";
 import { ZigzagItem } from "./zigzag-item";
 
 export const Zigzag = () => {
@@ -13,13 +19,8 @@ export const Zigzag = () => {
             </h1>
           </div>
           <>
-            <h6>
-              <i>Movimento 1 -</i>
-            </h6>
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
-              <h5 className="h2 mb-4">
-                <br /> Metamorfose
-              </h5>
+            <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+              Movimento 1 - Metamorfose
             </div>
             <div className="grid gap-20">
               {metamorfose.map((imageData, index) => (
@@ -37,13 +38,8 @@ export const Zigzag = () => {
           </>
           <hr />
           <>
-            <h6>
-              <i>Movimento 2 -</i>
-            </h6>
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
-              <h5 className="h2 mb-4">
-                <br /> Deus átomo
-              </h5>
+            <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+              Movimento - Deus átomo
             </div>
             <div className="grid gap-20">
               {deusAtomo.map((imageData, index) => (
@@ -61,13 +57,8 @@ export const Zigzag = () => {
           </>
           <hr />
           <>
-            <h6>
-              <i>Movimento 3 -</i>
-            </h6>
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-cyan-600 mb-4">
-              <h5 className="h2 mb-4">
-                <br /> Transmutação
-              </h5>
+            <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+              Movimento 3 - Transmutação
             </div>
             <div className="grid gap-20">
               {transmutacao.map((imageData, index) => (
@@ -97,6 +88,19 @@ export const Zigzag = () => {
             </h1>
           </div>
           <>
+            <div className="grid gap-20">
+              {untitled.map((imageData, index) => (
+                <ZigzagItem
+                  key={index}
+                  Untitled={imageData.Untitled}
+                  imageSrc={imageData.imageSrc}
+                  title={imageData.title}
+                  description={imageData.description}
+                  size={imageData.size}
+                  price={imageData.price}
+                />
+              ))}
+            </div>
             <div className="grid gap-20">
               {acervo.map((imageData, index) => (
                 <ZigzagItem
