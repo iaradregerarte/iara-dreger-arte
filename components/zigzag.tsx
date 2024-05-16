@@ -5,6 +5,7 @@ import {
   transmutacao,
   untitled,
 } from "./image-data";
+import { ImageUntitled } from "./image-untitled";
 import { ZigzagItem } from "./zigzag-item";
 
 export const Zigzag = () => {
@@ -90,7 +91,7 @@ export const Zigzag = () => {
           <>
             <div className="grid gap-20">
               {untitled.map((imageData, index) => (
-                <ZigzagItem
+                <ImageUntitled
                   key={index}
                   Untitled={imageData.Untitled}
                   imageSrc={imageData.imageSrc}
