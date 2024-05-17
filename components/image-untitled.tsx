@@ -18,6 +18,7 @@ export const ImageUntitled = ({
           width={540}
           height={405}
           alt={title}
+          onContextMenu={(e) => e.preventDefault()}
         />
       </div>
       {/* Content */}

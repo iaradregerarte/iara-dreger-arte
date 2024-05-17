@@ -8,8 +8,17 @@ interface ImgProps extends ImageProps {
 }
 export const Img: React.FC<ImgProps> = ({ src, alt, ...props }) => {
   return (
-    <div className="relative flex justify-center items-center" data-aos="fade-up" data-aos-delay="200">
-      <NextImage src={src} alt={alt} {...props} />
+    <div
+      className="relative flex justify-center items-center"
+      data-aos="fade-up"
+      data-aos-delay="200"
+    >
+      <NextImage
+        onContextMenu={(e) => e.preventDefault()} 
+        src={src}
+        alt={alt}
+        {...props}
+      />
     </div>
   );
 };
