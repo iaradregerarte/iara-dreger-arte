@@ -5,17 +5,22 @@ interface ClientComponentProps {
   alt: string;
   width: number;
   height: number;
+  onContextMenu?: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 }
 
 const ClientComponent: React.FC<ClientComponentProps> = ({
   src,
   alt,
+  onContextMenu,
   ...props
 }) => {
   const handleContextMenu = (
     e: React.MouseEvent<HTMLDivElement, MouseEvent>
   ) => {
     e.preventDefault();
+    if (onContextMenu) {
+      onContextMenu(e);
+    }
   };
 
   return (
@@ -25,7 +30,7 @@ const ClientComponent: React.FC<ClientComponentProps> = ({
       data-aos-delay="200"
       onContextMenu={handleContextMenu}
     >
-      <img src={src} alt={alt}  {...props} />
+      <img src={src} alt={alt} {...props} />
     </div>
   );
 };
