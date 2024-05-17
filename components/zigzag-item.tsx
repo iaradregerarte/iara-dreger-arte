@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ClientComponent from "./cliente-componete";
 
 export const ZigzagItem = ({
   imageSrc,
@@ -15,14 +15,7 @@ export const ZigzagItem = ({
         className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
         data-aos="fade-up"
       >
-        <Image
-          className="max-w-full mx-auto md:max-w-none h-auto"
-          src={imageSrc}
-          width={540}
-          height={405}
-          alt={title}
-          onContextMenu={(e) => e.preventDefault()}
-        />
+        <ClientComponent src={imageSrc} alt={title} width={540} height={405} />
       </div>
       {/* Content */}
       <div

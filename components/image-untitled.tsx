@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ClientComponent from "./cliente-componete";
 
 export const ImageUntitled = ({
   imageSrc,
@@ -12,14 +12,7 @@ export const ImageUntitled = ({
     <div className="mb-8">
       {/* Image */}
       <div className="w-full mb-4" data-aos="fade-up">
-        <Image
-          className="w-full h-auto"
-          src={imageSrc}
-          width={540}
-          height={405}
-          alt={title}
-          onContextMenu={(e) => e.preventDefault()}
-        />
+        <ClientComponent src={imageSrc} alt={title} width={540} height={405} />
       </div>
       {/* Content */}
       <div className="text-center" data-aos="fade-left">
