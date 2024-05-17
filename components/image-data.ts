@@ -55,6 +55,17 @@ export const metamorfose = [
 
 export const untitled = [
   {
+    Untitled: "Untitled I",
+    imageSrc: UntitledI,
+    size: "1.20 x 0.20 m",
+    title: "Acrílica sobre 6 Telas, 2023-24",
+    description: "Chassis duplo, tipo painel",
+    price: "R$ 780,00",
+  },
+];
+
+export const deusAtomo = [
+  {
     Untitled: "Untitled 3",
     imageSrc: Untitled3,
     size: " 0.60 x 0.50 m",
@@ -62,9 +73,6 @@ export const untitled = [
     description: "Chassis duplo, tipo painel",
     price: "R$ 975,00",
   },
-];
-
-export const deusAtomo = [
   {
     Untitled: "Untitled 4",
     imageSrc: Untitled4,
@@ -191,14 +199,6 @@ export const transmutacao = [
 ];
 
 export const acervo = [
-  {
-    Untitled: "Untitled I",
-    imageSrc: UntitledI,
-    size: "1.20 x 0.20 m",
-    title: "Acrílica sobre 6 Telas, 2023-24",
-    description: "Chassis duplo, tipo painel",
-    price: "R$ 780,00",
-  },
   {
     Untitled: "Untitled II",
     imageSrc: UntitledII,
