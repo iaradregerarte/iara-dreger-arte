@@ -20,7 +20,7 @@ export const Zigzag = () => {
             </h1>
           </div>
           <>
-            <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+            <div className="font-architects-daughter text-2xl text-purple-600 mb-2">
               Movimento 1 - Metamorfose
             </div>
             <div className="grid gap-20">
@@ -39,7 +39,7 @@ export const Zigzag = () => {
           </>
           <hr />
           <>
-            <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+            <div className="font-architects-daughter text-2xl text-purple-600 mb-2">
               Movimento 2 - Deus átomo
             </div>
             <div className="grid gap-20">
@@ -58,7 +58,7 @@ export const Zigzag = () => {
           </>
           <hr />
           <>
-            <div className="font-architects-daughter text-xl text-purple-600 mb-2">
+            <div className="font-architects-daughter text-2xl text-purple-600 mb-2">
               Movimento 3 - Transmutação
             </div>
             <div className="grid gap-20">
