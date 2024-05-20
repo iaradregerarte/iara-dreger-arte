@@ -1,4 +1,4 @@
-import ClientComponent from "./cliente-componete";
+import { Img } from "./img";
 
 export const ImageUntitled = ({
   imageSrc,
@@ -12,7 +12,7 @@ export const ImageUntitled = ({
     <div className="mb-8">
       {/* Image */}
       <div className="w-full mb-4" data-aos="fade-up">
-        <ClientComponent src={imageSrc} alt={title} width={540} height={405} />
+        <Img src={imageSrc} alt={title} width={540} height={405} />
       </div>
       {/* Content */}
       <div className="text-center" data-aos="fade-left">

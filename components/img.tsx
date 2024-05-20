@@ -14,7 +14,6 @@ export const Img: React.FC<ImgProps> = ({ src, alt, ...props }) => {
       data-aos-delay="200"
     >
       <NextImage
-        onContextMenu={(e) => e.preventDefault()} 
         src={src}
         alt={alt}
         {...props}

@@ -1,4 +1,4 @@
-import ClientComponent from "./cliente-componete";
+import { Img } from "./img";
 
 export const ZigzagItem = ({
   imageSrc,
@@ -15,7 +15,7 @@ export const ZigzagItem = ({
         className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
         data-aos="fade-up"
       >
-        <ClientComponent src={imageSrc} alt={title} width={540} height={405} />
+        <Img src={imageSrc} alt={title} width={540} height={405} />
       </div>
       {/* Content */}
       <div
