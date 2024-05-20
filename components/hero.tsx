@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { Img } from "./img";
 import author from "@/public/images/author.jpeg";
-import signature from "@/public/images/assinatura-removebg-preview.png";
+import signature from "@/public/images/bg.png";
 
 export default function Hero() {
   function getPublicImagePaths(folderName: any) {
