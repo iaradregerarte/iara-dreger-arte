@@ -40,7 +40,7 @@ export const Zigzag = () => {
           <hr />
           <>
             <div className="font-architects-daughter text-xl text-purple-600 mb-2">
-              Movimento - Deus átomo
+              Movimento 2 - Deus átomo
             </div>
             <div className="grid gap-20">
               {deusAtomo.map((imageData, index) => (
