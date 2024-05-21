@@ -107,7 +107,7 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="text-gray-400 text-sm mr-4 pt-10 pb-10 pl-38">
-            &copy; Copyright (c) 2024
+            &copy; Copyright (c) 2024&nbsp;
             <a
               href="https://cypirando.com.br/"
               target="_blank"
