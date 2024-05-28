@@ -53,7 +53,7 @@ export default function Hero() {
           </svg>
         </div>
 
-        <div className="relative pt-8 pb-5 md:pt-20 md:pb-10">
+        <div className="relative pt-2 pb-5 md:pt-20 md:pb-10">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="h1 mb-4" data-aos="fade-up">
               {/* <b> Série de Obras</b> */}
