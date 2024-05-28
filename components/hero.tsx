@@ -85,7 +85,7 @@ export default function Hero() {
               <br /> coletivas e individuais.
               <br />
               <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 mb-4">
-                <br /> A minha arte gestual expressionista abstrata é motivada
+                <br /> A minha arte gestual é motivada
                 por impressões do
                 <br /> inconsciente, somadas à minha sensibilidade e
                 amadurecimento artístico.

@@ -162,7 +162,7 @@ export const transmutacao = [
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2024",
     description: "Chassis duplo, tipo painel",
-    price: "R$ 600,00",
+    price: "R$ 1.200,00",
   },
   {
     Untitled: "Untitled 15",
