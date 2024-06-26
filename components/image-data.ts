@@ -1,42 +1,8 @@
-import Untitled1 from "@/public/images/Untitled1.jpeg";
-import Untitled2 from "@/public/images/Untitled2.jpeg";
-
-import Untitled3 from "@/public/images/Untitled3.jpeg";
-import Untitled4 from "@/public/images/Untitled4.jpeg";
-import Untitled5 from "@/public/images/Untitled5.jpeg";
-import Untitled6 from "@/public/images/Untitled6.jpeg";
-import Untitled7 from "@/public/images/Untitled7.jpeg";
-import Untitled8 from "@/public/images/Untitled8.jpeg";
-import Untitled9 from "@/public/images/Untitled9.jpeg";
-import Untitled10 from "@/public/images/Untitled10.jpeg";
-
-import Untitled11 from "@/public/images/Untitled11.jpeg";
-import Untitled12 from "@/public/images/Untitled12.jpeg";
-import Untitled13 from "@/public/images/Untitled13.jpeg";
-import Untitled14 from "@/public/images/Untitled14.jpeg";
-import Untitled15 from "@/public/images/Untitled15.jpeg";
-import Untitled16 from "@/public/images/Untitled16.jpeg";
-import Untitled17 from "@/public/images/Untitled17.jpeg";
-import Untitled18 from "@/public/images/Untitled18.jpeg";
-
-import UntitledI from "@/public/images/UntitledI.jpeg";
-import UntitledII from "@/public/images/UntitledII.jpeg";
-import UntitledIII from "@/public/images/UntitledIII.jpeg";
-import UntitledIV from "@/public/images/UntitledIV.jpeg";
-import UntitledV from "@/public/images/UntitledV.jpeg";
-import UntitledVI from "@/public/images/UntitledVI.jpeg";
-import UntitledVII from "@/public/images/UntitledVII.jpeg";
-import UntitledVIII from "@/public/images/UntitledVIII.jpeg";
-import UntitledIX from "@/public/images/UntitledIX.jpeg";
-import UntitledX from "@/public/images/UntitledX.jpeg";
-import UntitledXI from "@/public/images/UntitledXI.jpeg";
-import UntitledXII from "@/public/images/UntitledXII.jpeg";
-import UntitledXIII from "@/public/images/UntitledXIII.jpeg";
-import UntitledXIV from "@/public/images/UntitledXIV.jpeg";
+import { getImagePath } from "./image-helper";
 
 export const metamorfose = [
   {
-    imageSrc: Untitled1,
+    imageSrc: getImagePath("Untitled1.jpeg"),
     Untitled: "Untitled 1",
     title: "Acrílica sobre Tela, 2022-24",
     size: "1.0 x 1.00 m",
@@ -44,7 +10,7 @@ export const metamorfose = [
     price: "R$ 3.250,00",
   },
   {
-    imageSrc: Untitled2,
+    imageSrc: getImagePath("Untitled2.jpeg"),
     Untitled: "Untitled 2",
     title: "Acrílica sobre Tela, 2018-24",
     size: "1.0 x 1.00 m",
@@ -56,7 +22,7 @@ export const metamorfose = [
 export const untitled = [
   {
     Untitled: "Untitled I",
-    imageSrc: UntitledI,
+    imageSrc: getImagePath("UntitledI.jpeg"),
     size: "1.20 x 0.20 m",
     title: "Acrílica sobre 6 Telas, 2023-24",
     description: "Chassis duplo, tipo painel",
@@ -67,7 +33,7 @@ export const untitled = [
 export const deusAtomo = [
   {
     Untitled: "Untitled 3",
-    imageSrc: Untitled3,
+    imageSrc: getImagePath("Untitled3.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2023",
     description: "Chassis duplo, tipo painel",
@@ -75,7 +41,7 @@ export const deusAtomo = [
   },
   {
     Untitled: "Untitled 4",
-    imageSrc: Untitled4,
+    imageSrc: getImagePath("Untitled4.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Óleo sobre Tela, 2024",
     description: "Chassis duplo, tipo painel",
@@ -83,7 +49,7 @@ export const deusAtomo = [
   },
   {
     Untitled: "Untitled 5",
-    imageSrc: Untitled5,
+    imageSrc: getImagePath("Untitled5.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2024",
     description: "Chassis duplo, tipo painel",
@@ -91,7 +57,7 @@ export const deusAtomo = [
   },
   {
     Untitled: "Untitled 6",
-    imageSrc: Untitled6,
+    imageSrc: getImagePath("Untitled6.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2023",
     description: "Chassis duplo, tipo painel",
@@ -99,7 +65,7 @@ export const deusAtomo = [
   },
   {
     Untitled: "Untitled 7",
-    imageSrc: Untitled7,
+    imageSrc: getImagePath("Untitled7.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2022-24",
     description: "Chassis duplo, tipo painel",
@@ -107,7 +73,7 @@ export const deusAtomo = [
   },
   {
     Untitled: "Untitled 8",
-    imageSrc: Untitled8,
+    imageSrc: getImagePath("Untitled8.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2023",
     description: "Chassis duplo, tipo painel",
@@ -115,7 +81,7 @@ export const deusAtomo = [
   },
   {
     Untitled: "Untitled 9",
-    imageSrc: Untitled9,
+    imageSrc: getImagePath("Untitled9.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2023",
     description: "Chassis duplo, tipo painel",
@@ -123,7 +89,7 @@ export const deusAtomo = [
   },
   {
     Untitled: "Untitled 10",
-    imageSrc: Untitled10,
+    imageSrc: getImagePath("Untitled10.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Óleo sobre Tela, 2024",
     description: "Chassis duplo, tipo painel",
@@ -134,7 +100,7 @@ export const deusAtomo = [
 export const transmutacao = [
   {
     Untitled: "Untitled 11",
-    imageSrc: Untitled11,
+    imageSrc: getImagePath("Untitled11.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2024",
     description: "Chassis duplo, tipo painel",
@@ -142,7 +108,7 @@ export const transmutacao = [
   },
   {
     Untitled: "Untitled 12",
-    imageSrc: Untitled12,
+    imageSrc: getImagePath("Untitled12.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Óleo sobre Tela, 2024",
     description: "Chassis duplo, tipo painel",
@@ -150,7 +116,7 @@ export const transmutacao = [
   },
   {
     Untitled: "Untitled 13",
-    imageSrc: Untitled13,
+    imageSrc: getImagePath("Untitled13.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2024",
     description: "Chassis duplo, tipo painel",
@@ -158,7 +124,7 @@ export const transmutacao = [
   },
   {
     Untitled: "Untitled 14",
-    imageSrc: Untitled14,
+    imageSrc: getImagePath("Untitled14.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2024",
     description: "Chassis duplo, tipo painel",
@@ -166,7 +132,7 @@ export const transmutacao = [
   },
   {
     Untitled: "Untitled 15",
-    imageSrc: Untitled15,
+    imageSrc: getImagePath("Untitled15.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2024",
     description: "Chassis duplo, tipo painel",
@@ -174,7 +140,7 @@ export const transmutacao = [
   },
   {
     Untitled: "Untitled 16",
-    imageSrc: Untitled16,
+    imageSrc: getImagePath("Untitled16.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2024",
     description: "Chassis duplo, tipo painel",
@@ -182,7 +148,7 @@ export const transmutacao = [
   },
   {
     Untitled: "Untitled 17",
-    imageSrc: Untitled17,
+    imageSrc: getImagePath("Untitled17.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2023-24",
     description: "Chassis duplo, tipo painel",
@@ -190,7 +156,7 @@ export const transmutacao = [
   },
   {
     Untitled: "Untitled 18",
-    imageSrc: Untitled18,
+    imageSrc: getImagePath("Untitled18.jpeg"),
     size: " 0.60 x 0.50 m",
     title: "Óleo sobre Tela, 2023-24",
     description: "Chassis duplo, tipo painel",
@@ -201,7 +167,7 @@ export const transmutacao = [
 export const acervo = [
   {
     Untitled: "Untitled II",
-    imageSrc: UntitledII,
+    imageSrc: getImagePath("UntitledII.jpeg"),
     size: "0.60 x 0.50 m",
     title: "Óleo sobre Tela, 2024",
     description: "Chassis duplo, tipo painel",
@@ -209,7 +175,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled III",
-    imageSrc: UntitledIII,
+    imageSrc: getImagePath("UntitledIII.jpeg"),
     size: "0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2023",
     description: "Chassis duplo, tipo painel",
@@ -217,7 +183,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled IV",
-    imageSrc: UntitledIV,
+    imageSrc: getImagePath("UntitledIV.jpeg"),
     size: "0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2023",
     description: "",
@@ -225,7 +191,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled V",
-    imageSrc: UntitledV,
+    imageSrc: getImagePath("UntitledV.jpeg"),
     size: "0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2023",
     description: "",
@@ -233,7 +199,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled VI",
-    imageSrc: UntitledVI,
+    imageSrc: getImagePath("UntitledVI.jpeg"),
     size: "0.60 x 0.50 m",
     title: "Acrílica sobre Tela, 2023",
     description: "",
@@ -241,7 +207,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled VII",
-    imageSrc: UntitledVII,
+    imageSrc: getImagePath("UntitledVII.jpeg"),
     size: "1.40 x 1.40 m",
     title: "Acrílica sobre Lona, 2016-2023",
     description: "Painel",
@@ -249,7 +215,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled VIII",
-    imageSrc: UntitledVIII,
+    imageSrc: getImagePath("UntitledVIII.jpeg"),
     size: "1.00 x 1.00 m",
     title: "Acrílica sobre Tela, 2022",
     description: "Moldura branca tipo filete",
@@ -257,7 +223,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled IX",
-    imageSrc: UntitledIX,
+    imageSrc: getImagePath("UntitledIX.jpeg"),
     size: "1.50 x 0.86 m",
     title: "Acrílica sobre Lona, 2016-2022",
     description: "Painel, Moldura branca tipo filete",
@@ -265,7 +231,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled X",
-    imageSrc: UntitledX,
+    imageSrc: getImagePath("UntitledX.jpeg"),
     size: "1.00 x 1.00 m",
     title: "Acrílica sobre Tela, 2022",
     description: "Moldura branca tipo filete",
@@ -273,7 +239,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled XI",
-    imageSrc: UntitledXI,
+    imageSrc: getImagePath("UntitledXI.jpeg"),
     size: "1.42 x 1.00 m",
     title: "Pigmento, PVA, Acrílica, Carvão e Grafite sobre Lona, 2016-2023",
     description: "Painel",
@@ -281,7 +247,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled XII",
-    imageSrc: UntitledXII,
+    imageSrc: getImagePath("UntitledXII.jpeg"),
     size: "1.50 x 1.06 m",
     title: "Pigmento, PVA, Acrílica e Carvão sobre Lona, 2016-2022",
     description: "Painel com moldura branca tipo filete",
@@ -289,7 +255,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled XIII",
-    imageSrc: UntitledXIII,
+    imageSrc: getImagePath("UntitledXIII.jpeg"),
     size: "1.42 x 1.00 m",
     title: "Pigmento, Acrílica e Óleo sobre Lona, 2017-2018",
     description: "Painel",
@@ -297,7 +263,7 @@ export const acervo = [
   },
   {
     Untitled: "Untitled XIV",
-    imageSrc: UntitledXIV,
+    imageSrc: getImagePath("UntitledXIV.jpeg"),
     size: "0.64 x 0.47 m",
     title: "Acrílica sobre Madeira com Chassi, 2020",
     description: "",
