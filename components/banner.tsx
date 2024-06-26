@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { getImagePath } from "./image-helper";
+import zap from "@/public/images/ico-whatsapp-topo.png";
 import { Img } from "./img";
 
 export default function Banner() {
@@ -29,7 +29,7 @@ export default function Banner() {
                   marginLeft: 8,
                 }}
                 alt="lgo"
-                src={getImagePath("ico-whatsapp-topo.png")}
+                src={zap}
               />
             </div>
             <button

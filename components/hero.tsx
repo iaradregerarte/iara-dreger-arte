@@ -1,7 +1,8 @@
 import fs from "fs";
 import path from "path";
-import { getImagePath } from "./image-helper";
 import { Img } from "./img";
+import author from "@/public/images/author.jpeg";
+import signature from "@/public/images/bg.png";
 
 export default function Hero() {
   function getPublicImagePaths(folderName: any) {
@@ -62,7 +63,7 @@ export default function Hero() {
                   marginLeft: 8,
                 }}
                 alt="Autora"
-                src={getImagePath("author.jpeg")}
+                src={author}
               />
             </h2>
             <h2 className="h1 mb-4" data-aos="fade-up">
@@ -84,7 +85,8 @@ export default function Hero() {
               <br /> coletivas e individuais.
               <br />
               <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 mb-4">
-                <br /> A minha arte gestual é motivada por impressões do
+                <br /> A minha arte gestual é motivada
+                por impressões do
                 <br /> inconsciente, somadas à minha sensibilidade e
                 amadurecimento artístico.
               </div>
@@ -93,7 +95,7 @@ export default function Hero() {
                   width: "50%",
                 }}
                 alt="assinatura"
-                src={getImagePath("bg.png")}
+                src={signature}
               />
               <br />
               <br />

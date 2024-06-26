@@ -1,1 +1,1 @@
-export const getImagePath = (imageName: string) => `public/images/${imageName}`;
+export const getImagePath = (imageName: string) => `/images/${imageName}`;
