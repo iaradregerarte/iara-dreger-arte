@@ -1,2 +1,1 @@
-export const getImagePath = (imageName: string) =>
-  `${process.env.BASE_PATH}/images/${imageName}`;
+export const getImagePath = (imageName: string) => `public/images/${imageName}`;
