@@ -1,4 +1,7 @@
+"use client";
+
 import { Img } from "./img";
+import { ImageData } from "./interfaces";
 
 export const ZigzagItem = ({
   imageSrc,
@@ -7,7 +10,8 @@ export const ZigzagItem = ({
   Untitled,
   size,
   price,
-}: any) => {
+  soldOut,
+}: ImageData) => {
   return (
     <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
       {/* Image */}
@@ -29,7 +33,14 @@ export const ZigzagItem = ({
           <h3 className="h3 mb-3">{title}</h3>
           <p className="text-xl text-gray-400 mb-4">{size}</p>
           <p className="text-xl text-gray-400 mb-4">{description}</p>
-          <h4 className="h4 mb-3">{price}</h4>
+          {soldOut ? (
+            <h4 className="h4 mb-3">
+              <del className="line-through text-gray-400">{price}</del>{" "}
+              <span className="text-red-500">SOLD OUT</span>
+            </h4>
+          ) : (
+            <h4 className="h4 mb-3">{price}</h4>
+          )}
         </div>
       </div>
       <hr />

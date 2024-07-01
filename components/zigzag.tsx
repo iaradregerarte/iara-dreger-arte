@@ -33,6 +33,7 @@ export const Zigzag = () => {
                   description={imageData.description}
                   size={imageData.size}
                   price={imageData.price}
+                  soldOut={imageData.soldOut}
                 />
               ))}
             </div>
@@ -52,6 +53,7 @@ export const Zigzag = () => {
                   description={imageData.description}
                   size={imageData.size}
                   price={imageData.price}
+                  soldOut={imageData.soldOut}
                 />
               ))}
             </div>
@@ -71,6 +73,7 @@ export const Zigzag = () => {
                   description={imageData.description}
                   size={imageData.size}
                   price={imageData.price}
+                  soldOut={imageData.soldOut}
                 />
               ))}
             </div>
@@ -99,6 +102,7 @@ export const Zigzag = () => {
                   description={imageData.description}
                   size={imageData.size}
                   price={imageData.price}
+                  soldOut={imageData.soldOut}
                 />
               ))}
             </div>
@@ -112,6 +116,7 @@ export const Zigzag = () => {
                   description={imageData.description}
                   size={imageData.size}
                   price={imageData.price}
+                  soldOut={imageData.soldOut}
                 />
               ))}
             </div>

@@ -1,19 +1,10 @@
+import author from "@/public/images/author.jpeg";
+import signature from "@/public/images/bg.png";
 import fs from "fs";
 import path from "path";
 import { Img } from "./img";
-import author from "@/public/images/author.jpeg";
-import signature from "@/public/images/bg.png";
 
 export default function Hero() {
-  function getPublicImagePaths(folderName: any) {
-    const publicFolderPath = path.resolve(process.cwd(), "public", folderName);
-    const imageFileNames = fs.readdirSync(publicFolderPath);
-    const imagePaths = imageFileNames.map(
-      (fileName) => `/${folderName}/${fileName}`
-    );
-    return imagePaths;
-  }
-  const images = getPublicImagePaths("images");
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -85,9 +76,8 @@ export default function Hero() {
               <br /> coletivas e individuais.
               <br />
               <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 mb-4">
-                <br /> A minha arte gestual é motivada
-                por impressões do
-                <br /> inconsciente, somadas à minha sensibilidade e
+                <br /> A minha arte gestual é motivada por impressões do
+                <br /> subconsciente, somadas à minha sensibilidade e
                 amadurecimento artístico.
               </div>
               <Img

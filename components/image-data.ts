@@ -33,8 +33,9 @@ import UntitledXI from "@/public/images/UntitledXI.jpeg";
 import UntitledXII from "@/public/images/UntitledXII.jpeg";
 import UntitledXIII from "@/public/images/UntitledXIII.jpeg";
 import UntitledXIV from "@/public/images/UntitledXIV.jpeg";
+import { ImageData } from "./interfaces";
 
-export const metamorfose = [
+export const metamorfose: ImageData[] = [
   {
     imageSrc: Untitled1,
     Untitled: "Untitled 1",
@@ -42,6 +43,7 @@ export const metamorfose = [
     size: "1.0 x 1.00 m",
     description: "Moldura branca tipo filete",
     price: "R$ 3.250,00",
+    soldOut: true,
   },
   {
     imageSrc: Untitled2,
@@ -50,11 +52,13 @@ export const metamorfose = [
     size: "1.0 x 1.00 m",
     description: "Moldura branca tipo filete",
     price: "R$ 3.250,00",
+    soldOut: true,
   },
 ];
 
-export const untitled = [
+export const untitled: ImageData[] = [
   {
+    soldOut: false,
     Untitled: "Untitled I",
     imageSrc: UntitledI,
     size: "1.20 x 0.20 m",
@@ -64,8 +68,9 @@ export const untitled = [
   },
 ];
 
-export const deusAtomo = [
+export const deusAtomo: ImageData[] = [
   {
+    soldOut: false,
     Untitled: "Untitled 3",
     imageSrc: Untitled3,
     size: " 0.60 x 0.50 m",
@@ -74,6 +79,7 @@ export const deusAtomo = [
     price: "R$ 975,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 4",
     imageSrc: Untitled4,
     size: " 0.60 x 0.50 m",
@@ -82,6 +88,7 @@ export const deusAtomo = [
     price: "R$ 975,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 5",
     imageSrc: Untitled5,
     size: " 0.60 x 0.50 m",
@@ -90,6 +97,7 @@ export const deusAtomo = [
     price: "R$ 975,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 6",
     imageSrc: Untitled6,
     size: " 0.60 x 0.50 m",
@@ -98,6 +106,7 @@ export const deusAtomo = [
     price: "R$ 600,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 7",
     imageSrc: Untitled7,
     size: " 0.60 x 0.50 m",
@@ -106,6 +115,7 @@ export const deusAtomo = [
     price: "R$ 975,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 8",
     imageSrc: Untitled8,
     size: " 0.60 x 0.50 m",
@@ -114,6 +124,7 @@ export const deusAtomo = [
     price: "R$ 975,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 9",
     imageSrc: Untitled9,
     size: " 0.60 x 0.50 m",
@@ -122,6 +133,7 @@ export const deusAtomo = [
     price: "R$ 600,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 10",
     imageSrc: Untitled10,
     size: " 0.60 x 0.50 m",
@@ -131,8 +143,9 @@ export const deusAtomo = [
   },
 ];
 
-export const transmutacao = [
+export const transmutacao: ImageData[] = [
   {
+    soldOut: false,
     Untitled: "Untitled 11",
     imageSrc: Untitled11,
     size: " 0.60 x 0.50 m",
@@ -141,6 +154,7 @@ export const transmutacao = [
     price: "R$ 1.200,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 12",
     imageSrc: Untitled12,
     size: " 0.60 x 0.50 m",
@@ -149,6 +163,7 @@ export const transmutacao = [
     price: "R$ 1.200,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 13",
     imageSrc: Untitled13,
     size: " 0.60 x 0.50 m",
@@ -157,6 +172,7 @@ export const transmutacao = [
     price: "R$ 1.200,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 14",
     imageSrc: Untitled14,
     size: " 0.60 x 0.50 m",
@@ -165,6 +181,7 @@ export const transmutacao = [
     price: "R$ 1.200,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 15",
     imageSrc: Untitled15,
     size: " 0.60 x 0.50 m",
@@ -173,6 +190,7 @@ export const transmutacao = [
     price: "R$ 1.200,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 16",
     imageSrc: Untitled16,
     size: " 0.60 x 0.50 m",
@@ -181,6 +199,7 @@ export const transmutacao = [
     price: "R$ 1.200,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 17",
     imageSrc: Untitled17,
     size: " 0.60 x 0.50 m",
@@ -189,6 +208,7 @@ export const transmutacao = [
     price: "R$ 1.200,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled 18",
     imageSrc: Untitled18,
     size: " 0.60 x 0.50 m",
@@ -198,8 +218,9 @@ export const transmutacao = [
   },
 ];
 
-export const acervo = [
+export const acervo: ImageData[] = [
   {
+    soldOut: false,
     Untitled: "Untitled II",
     imageSrc: UntitledII,
     size: "0.60 x 0.50 m",
@@ -214,8 +235,10 @@ export const acervo = [
     title: "Acrílica sobre Tela, 2023",
     description: "Chassis duplo, tipo painel",
     price: "R$ 600,00",
+    soldOut: true,
   },
   {
+    soldOut: false,
     Untitled: "Untitled IV",
     imageSrc: UntitledIV,
     size: "0.60 x 0.50 m",
@@ -224,6 +247,7 @@ export const acervo = [
     price: "R$ 400,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled V",
     imageSrc: UntitledV,
     size: "0.60 x 0.50 m",
@@ -238,8 +262,10 @@ export const acervo = [
     title: "Acrílica sobre Tela, 2023",
     description: "",
     price: "R$ 400,00",
+    soldOut: true,
   },
   {
+    soldOut: false,
     Untitled: "Untitled VII",
     imageSrc: UntitledVII,
     size: "1.40 x 1.40 m",
@@ -248,6 +274,7 @@ export const acervo = [
     price: "R$ 4.550,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled VIII",
     imageSrc: UntitledVIII,
     size: "1.00 x 1.00 m",
@@ -256,6 +283,7 @@ export const acervo = [
     price: "R$ 2.000,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled IX",
     imageSrc: UntitledIX,
     size: "1.50 x 0.86 m",
@@ -264,6 +292,7 @@ export const acervo = [
     price: "R$ 4.190,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled X",
     imageSrc: UntitledX,
     size: "1.00 x 1.00 m",
@@ -272,6 +301,7 @@ export const acervo = [
     price: "R$ 2.000,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled XI",
     imageSrc: UntitledXI,
     size: "1.42 x 1.00 m",
@@ -280,6 +310,7 @@ export const acervo = [
     price: "R$ 2.840,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled XII",
     imageSrc: UntitledXII,
     size: "1.50 x 1.06 m",
@@ -288,6 +319,7 @@ export const acervo = [
     price: "R$ 3.018,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled XIII",
     imageSrc: UntitledXIII,
     size: "1.42 x 1.00 m",
@@ -296,6 +328,7 @@ export const acervo = [
     price: "R$ 2.840,00",
   },
   {
+    soldOut: false,
     Untitled: "Untitled XIV",
     imageSrc: UntitledXIV,
     size: "0.64 x 0.47 m",
